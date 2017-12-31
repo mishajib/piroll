@@ -1,0 +1,122 @@
+/* medium layout: 1280px. */
+@media only screen and (min-width:992px) and (max-width: 1200px){
+    .contact-form{
+        padding-bottom: 55%;
+    }
+    .info h4{
+        font-size: 14px;
+    }
+    
+}
+
+/* tablet layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .contact-form{
+        padding-bottom: 80%;
+    }
+    .info h3{
+        text-align: center;
+    }
+    .info p{
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .info h4{
+        text-align: center;
+        padding: 10px;
+    }
+    .info{
+        padding-bottom: 20%;
+    }
+    .skills img{
+        margin: 40% auto;
+    }
+    .working-process iframe{
+        padding-left: 30%;
+        margin-left: -28%;
+    }
+    .wrapper{
+        left: 25%;
+    }
+    .skillbar{
+        width: 90%;
+    }
+
+}
+
+/*mobile layout: 320px */
+@media only screen and (max-width: 767px){
+    .banner .item h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .banner .item p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .banner .item a{
+        font-size: 12px;
+        padding: 6px 20px 6px 20px;
+    }
+    .banner .button{
+        top: 65px;
+    }
+    .about p{
+        font-size: 13px;
+    }
+    .skills h3{
+        font-size: 1.5em;
+    }
+    
+    .wrapper{
+        top: 130px;
+        left: 20%;
+    }
+    .skills img{
+        margin-top: 75%;
+    }
+    .skillbar-title{
+        font-size: 14px;
+    }
+    .working-process h1{
+        font-size: 1.5em;
+    }
+    .working-process p{
+        font-size: 15px;
+    }
+    .working-process iframe{
+        height: 180px;
+        width: 225px;
+    }
+    .info ul li{
+        font-size: 15px;
+        margin: 10px 0 0 -65px;
+    }
+    .info{
+        position: relative;
+        padding-bottom: 45%;
+    }
+    .contact-form{
+        padding-bottom: 220%;
+    }
+    .sticker img{
+        padding-bottom: 15%;
+        margin: 0 auto;
+    }
+    .info h4{
+        font-size: 15px;
+    }
+    .info .social{
+        display: -webkit-box;
+    }
+}
+
+/* wide mobile layout: 480px */
+@media only screen and (min-width: 480px){
+
+        .work img{
+            margin: 0 auto;
+        }
+
+}
+
