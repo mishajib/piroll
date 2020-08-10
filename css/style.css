@@ -29,6 +29,11 @@ time, mark, audio, video {
 
 .style_nav .style_brand {
     padding-top: 25px;
+    color: #04e8ff;
+}
+
+.style_nav .style_brand:hover {
+    color: #000;
 }
 .navbar-default .navbar-nav > li > a {
     display: inline-block;
@@ -121,7 +126,7 @@ time, mark, audio, video {
 
 /* banner part start */
 .banner{
-    background: url(../images/bg.jpg) no-repeat;
+    background: url(../images/bg.jpg) center center fixed no-repeat;
     background-size: cover;
     padding: 15% 0 15% 0;
     margin-left: -15px;
@@ -149,7 +154,7 @@ time, mark, audio, video {
 .banner .item p{
     font-family: NunitoSans-Regular, AdobeInvisFont, Tahoma;
     font-size: 1.2em;
-    color: #09f1d1;
+    color: #1d3a36;
 }
 .banner .item{
     position: relative;
